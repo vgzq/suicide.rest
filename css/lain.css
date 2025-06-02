@@ -59,10 +59,8 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
-
 .text {
     display: none;
-    flex-direction: column;
     text-align: center;
     margin-bottom: 0;
     margin-top: 0;
