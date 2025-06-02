@@ -136,10 +136,12 @@ body {
 }
 
 @-webkit-keyframes swing {
+
     50% {
         -webkit-transform: rotate3d(0, 0, 1, -6deg);
         transform: rotate3d(0, 0, 1, -6deg);
     }
+
 
     to {
         -webkit-transform: rotate3d(0, 0, 1, 6deg);
@@ -152,6 +154,7 @@ body {
         -webkit-transform: rotate3d(0, 0, 1, -6deg);
         transform: rotate3d(0, 0, 1, -6deg);
     }
+
 
     to {
         -webkit-transform: rotate3d(0, 0, 1, 0deg);
@@ -167,16 +170,3 @@ body {
 }
 
 /* effects */
-
-/* fix text layout */
-#txt {
-    white-space: nowrap;
-    display: inline-block;
-    text-align: center;
-}
-
-#txt a {
-    display: inline;
-    color: red;
-    text-decoration: none;
-}
