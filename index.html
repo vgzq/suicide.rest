@@ -10,11 +10,13 @@
         <button class="overlaybtn" onclick="removeOverlay()">?</button>
     </div>
 
-<img id="img" class="center" src="images/girl.png">
-<p id="txt" class="text anim">
-  just leave me to<br>
-  <a href="https://discord.gg/3am" style="color: red; text-decoration: none;">3am.</a>
-</p>
+    <img id="img" class="center" src="images/girl.png">
+	
+<div id="text-container">
+  <p id="txt" class="text anim">
+    die at <a href="https://discord.gg/3am" style="color: red; text-decoration: none;">3am.</a>
+  </p>
+</div>
 
     <audio id="backgroundsong" src="media/song.mp3" loop=""></audio> 
 
@@ -38,7 +40,7 @@
         }, 3000);
 
         setTimeout(() => {
-            txt.style.display = 'flex';
+            txt.style.display = 'inline-block';
         }, 3000);
         }
     </script>
